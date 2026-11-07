@@ -1,0 +1,53 @@
+# Python bytecode and tooling caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Local environment and secrets
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# React / Node dependencies and generated output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Generated model and training artifacts
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+models/checkpoint/
+results/
+
+# Dataset files may be large, sensitive, or subject to licensing restrictions
+dataset/*
+!dataset/.gitkeep
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
