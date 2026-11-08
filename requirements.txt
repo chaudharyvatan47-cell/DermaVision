@@ -1,0 +1,13 @@
+# Reproducible core research stack compatible with the currently verified venv.
+tensorflow==2.21.0
+numpy==2.5.4
+pandas==3.1.1
+opencv-python==5.0.0.93
+Pillow==13.0.0
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# Minimal API runtime dependencies.
+fastapi==0.162.2
+uvicorn==0.54.0
+python-multipart==0.0.33
